@@ -1,5 +1,8 @@
-def main(name):
-    print(f"Hello {name}")
+def hello_world(city):
+    print(f"Hello world from {city}")
+
+def main():
+    hello_world("Nairobi")
 
 
-main("Paul")
+main()
